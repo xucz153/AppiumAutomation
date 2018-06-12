@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="appium实战-Android篇" duration-ms="236415" started-at="2016-06-02T06:58:04Z" finished-at="2016-06-02T07:02:00Z">
+    <groups>
+    </groups>
+    <test name="搜索" duration-ms="76813" started-at="2016-06-02T06:58:04Z" finished-at="2016-06-02T06:59:21Z">
+      <class name="com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test">
+        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test@7afb56a8]" name="initTest" is-config="true" duration-ms="15731" started-at="2016-06-02T14:58:04Z" finished-at="2016-06-02T14:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57e56bf8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="searchDemo(java.util.Map)[pri:0, instance:com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test@7afb56a8]" name="searchDemo" duration-ms="54221" started-at="2016-06-02T14:58:20Z" data-provider="testData" finished-at="2016-06-02T14:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{KEYWORD=Java}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDemo -->
+        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test@7afb56a8]" name="clenTest" is-config="true" duration-ms="6522" started-at="2016-06-02T14:59:14Z" finished-at="2016-06-02T14:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clenTest -->
+      </class> <!-- com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test -->
+    </test> <!-- 搜索 -->
+    <test name="更多" duration-ms="85087" started-at="2016-06-02T06:59:21Z" finished-at="2016-06-02T07:00:46Z">
+      <class name="com.young.appiumcombat.testcases.more.MorePage_001_UiCheckForMorePage_Test">
+        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.young.appiumcombat.testcases.more.MorePage_001_UiCheckForMorePage_Test@5168400e]" name="initTest" is-config="true" duration-ms="15061" started-at="2016-06-02T14:59:21Z" finished-at="2016-06-02T14:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@171393dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="uiCheckForMorePage(java.util.Map)[pri:0, instance:com.young.appiumcombat.testcases.more.MorePage_001_UiCheckForMorePage_Test@5168400e]" name="uiCheckForMorePage" duration-ms="67993" started-at="2016-06-02T14:59:36Z" data-provider="testData" finished-at="2016-06-02T15:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{HISTORY=书签和历史记录, LOGIN=登录, SETTINGS=设置, FEEDBACK=撰写反馈}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiCheckForMorePage -->
+        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.young.appiumcombat.testcases.more.MorePage_001_UiCheckForMorePage_Test@5168400e]" name="clenTest" is-config="true" duration-ms="1820" started-at="2016-06-02T15:00:44Z" finished-at="2016-06-02T15:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clenTest -->
+      </class> <!-- com.young.appiumcombat.testcases.more.MorePage_001_UiCheckForMorePage_Test -->
+    </test> <!-- 更多 -->
+    <test name="首页" duration-ms="74484" started-at="2016-06-02T07:00:46Z" finished-at="2016-06-02T07:02:00Z">
+      <class name="com.young.appiumcombat.testcases.home.HomePage_001_UiCheck_Test">
+        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.young.appiumcombat.testcases.home.HomePage_001_UiCheck_Test@650c892c]" name="initTest" is-config="true" duration-ms="13626" started-at="2016-06-02T15:00:46Z" finished-at="2016-06-02T15:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6509e01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="uiCheck(java.util.Map)[pri:0, instance:com.young.appiumcombat.testcases.home.HomePage_001_UiCheck_Test@650c892c]" name="uiCheck" duration-ms="56679" started-at="2016-06-02T15:01:00Z" data-provider="testData" finished-at="2016-06-02T15:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{STORY=图片故事}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiCheck -->
+        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.young.appiumcombat.testcases.home.HomePage_001_UiCheck_Test@650c892c]" name="clenTest" is-config="true" duration-ms="3966" started-at="2016-06-02T15:01:56Z" finished-at="2016-06-02T15:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clenTest -->
+      </class> <!-- com.young.appiumcombat.testcases.home.HomePage_001_UiCheck_Test -->
+    </test> <!-- 首页 -->
+  </suite> <!-- appium实战-Android篇 -->
+</testng-results>

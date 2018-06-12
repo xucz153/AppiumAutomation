@@ -1,0 +1,15 @@
+[2016-06-02 14:58:20] [INFO] 必应搜索APP已经启动
+[2016-06-02 14:58:20] [INFO] searchDemo 测试用例开始执行！
+[2016-06-02 14:58:59] [INFO] 点击元素： id: com.microsoft.bing:id/search
+[2016-06-02 14:59:05] [INFO] 在元素： id: com.microsoft.bing:id/search_text_field输入内容：Java
+[2016-06-02 14:59:06] [INFO] 点击元素： id: com.microsoft.bing:id/opal_as_web
+[2016-06-02 14:59:09] [INFO] 开始查找元素[By.xpath: //*[@class='b_hList']/li[2]]
+[2016-06-02 14:59:12] [INFO] 找到了元素 [By.xpath: //*[@class='b_hList']/li[2]]
+[2016-06-02 14:59:12] [INFO] 开始查找元素[By.xpath: //*[@class='b_hList']/li[4]]
+[2016-06-02 14:59:13] [INFO] 找到了元素 [By.xpath: //*[@class='b_hList']/li[4]]
+[2016-06-02 14:59:13] [INFO] 开始查找元素[By.xpath: //*[@class='deeplink_title']]
+[2016-06-02 14:59:13] [INFO] 找到了元素 [By.xpath: //*[@class='deeplink_title']]
+[2016-06-02 14:59:14] [INFO] The [什么是 Java] is contains [Java]
+[2016-06-02 14:59:14] [INFO] searchDemo 测试用例执行成功！
+[2016-06-02 14:59:21] [INFO] 必应搜索APP已经关闭
+[2016-06-02 14:59:21] [INFO] 执行成功的用例 = searchDemo

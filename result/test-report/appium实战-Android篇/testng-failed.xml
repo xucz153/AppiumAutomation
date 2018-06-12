@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [appium实战-Android篇]" parallel="tests">
+  <parameter name="automationName" value="Appium"/>
+  <parameter name="appFilePath" value="res/properties/app.properties"/>
+  <parameter name="iosAppPath" value="res/app/ios/xxx.app"/>
+  <parameter name="androidAppPath" value="res/app/android/bing.apk"/>
+  <parameter name="appActivity" value="com.microsoft.clients.bing.app.MainActivity"/>
+  <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="sessionOverride" value="true"/>
+  <parameter name="udid" value=""/>
+  <parameter name="appPackage" value="com.microsoft.bing"/>
+  <parameter name="platformVersion" value="5.0.1"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="MEIZU MX3"/>
+  <parameter name="sleepTime" value="1"/>
+  <parameter name="unicodeKeyboard" value="true"/>
+  <parameter name="resetKeyboard" value="true"/>
+  <parameter name="elementTimeOut" value="15"/>
+  <listeners>
+    <listener class-name="com.young.appiumcombat.plugins.excelReporter.TestResultListener"/>
+    <listener class-name="com.young.appiumcombat.plugins.excelReporter.ExcelReporter"/>
+  </listeners>
+  <test name="Default test(failed)" parallel="tests">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test">
+        <methods>
+          <include name="clenTest"/>
+          <include name="initTest"/>
+          <include name="searchDemo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.search.SearchPage_001_SearchDemo_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [appium实战-Android篇] -->
